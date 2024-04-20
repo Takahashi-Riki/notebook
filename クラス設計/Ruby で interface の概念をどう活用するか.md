@@ -1,7 +1,6 @@
-```js script
-alert("hoge")
-```
-<script>alert("hoge")</script>
+<script>
+  alert("Hello world!!");
+</script>
 
 # 前提
 
@@ -16,6 +15,7 @@ Matz さんに従って、無理に interface を実現するのではなく、i
 # 検討記録
 
 Ruby で interface の概念を活用する方法としては下記が考えられる。
+個人開発でない限り、案2は社内で合意をとって導入する必要があり、かなり現実的でないため、一人の開発者として案1を選ぶのが妥当。
 
 - 案1: interface を意識した実装を行う。
 - 案2: interface を何らかの方法で Ruby で実現する。
