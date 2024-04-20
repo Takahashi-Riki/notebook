@@ -1,7 +1,3 @@
-<script>
-  alert("Hello world!!");
-</script>
-
 # 前提
 
 - Ruby には interface の概念がない。
