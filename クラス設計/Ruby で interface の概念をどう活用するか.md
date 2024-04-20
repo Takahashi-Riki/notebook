@@ -1,3 +1,8 @@
+```js script
+alert("hoge")
+```
+<script>alert("hoge")</script>
+
 # 前提
 
 - Ruby には interface の概念がない。
@@ -8,7 +13,14 @@ Matz さんに従って、無理に interface を実現するのではなく、i
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Rubyでは、型やインターフェースはあなたの心の中にあるのです。<br><br>まあ、抽象クラスやインターフェースの代わりにmoduleが使えますが、使いすぎるとRubyっぽくなくなるので、ほどほどに。</p>&mdash; Yukihiro Matz (@yukihiro_matz) <a href="https://twitter.com/yukihiro_matz/status/1066980158429552640?ref_src=twsrc%5Etfw">November 26, 2018</a></blockquote>
 
+# 検討記録
 
+Ruby で interface の概念を活用する方法としては下記が考えられる。
+
+- 案1: interface を意識した実装を行う。
+- 案2: interface を何らかの方法で Ruby で実現する。
+  - 案2-1: 継承を利用する。
+  - 案2-2: module を利用する。 
 
 # サンプルコード
 
