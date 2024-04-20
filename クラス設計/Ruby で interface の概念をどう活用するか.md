@@ -8,6 +8,11 @@ Matz さんに従って、無理に interface を実現するのではなく、i
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Rubyでは、型やインターフェースはあなたの心の中にあるのです。<br><br>まあ、抽象クラスやインターフェースの代わりにmoduleが使えますが、使いすぎるとRubyっぽくなくなるので、ほどほどに。</p>&mdash; Yukihiro Matz (@yukihiro_matz) <a href="https://twitter.com/yukihiro_matz/status/1066980158429552640?ref_src=twsrc%5Etfw">November 26, 2018</a></blockquote>
 
+# 参考資料
+
+- https://developers.wonderpla.net/entry/2022/03/24/110000
+- https://morningcoffee.io/interfaces-in-ruby.html
+
 # 検討記録
 
 Ruby で interface の概念を活用する方法としては下記が考えられる。
